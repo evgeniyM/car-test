@@ -1,6 +1,10 @@
 ## Description
 
-Car test propject
+Car test propject.
+
+This is simple implementation of the task due to limited time. Only reqiured routes was made. It could be futher improved by adding pagination and filters to the list routes. 
+Also `/cars` routes could be extended to add and return `owners` of the cars. Since services and controllers are simple I didn't implement unit tests for them, instead I've made integration tests for main logic. These tests also could be improved by adding more test cases.
+Also it would be good to add swagger file, and add support of config files with validation using for example `convict` lib.
 
 ## Routes
 
@@ -40,16 +44,6 @@ $ npm run test
 # e2e tests
 $ npm run test:e2e
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
