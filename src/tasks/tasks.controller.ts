@@ -1,11 +1,11 @@
-import { Body, Controller, Delete, Get, Param, Post } from '@nestjs/common';
+import { Controller, Post } from '@nestjs/common';
 import { TasksService } from './tasks.service'
 
 @Controller('task')
 export class TasksController {
   constructor(private readonly tasksService: TasksService) {}
 
-  @Get()
+  @Post()
   run(): string {
     this.tasksService.delAndCalc()
     return 'OK';

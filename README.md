@@ -21,7 +21,7 @@ POST /cars - create a car
 - manufacturerId
 
 GET /cars/:id/manufacturer - get car manufacturer
-GET /task - run task
+POST /task - run task
 ```
 
 ## Running the app
